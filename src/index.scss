@@ -2,3 +2,31 @@
 @import "tachyons";
 @import "styles/_globals.scss";
 @import "~@fortawesome/fontawesome-free/css/all.css";
+
+.unknown-future {
+  background: rgb(36, 0, 0);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(36, 0, 0, 1) 0%,
+    rgba(121, 9, 9, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(36, 0, 0, 1) 0%,
+    rgba(121, 9, 9, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 0, 1) 0%,
+    rgba(121, 9, 9, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240000",endColorstr="#ffffff",GradientType=1);
+}
+
+.fc-h-event {
+  display: block;
+  border: 0px !important;
+}
