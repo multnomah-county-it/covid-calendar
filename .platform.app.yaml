@@ -26,6 +26,13 @@ mounts:
     source: local
     source_path: public
 
-web:
-  commands: 
-    start: "node index.js"
+#web:
+#  commands: 
+#    start: "node index.js"
+
+locations:
+   # This tells Nginx to serve from the base directory
+    "/":
+        root: "public"
+          index:
+          - "index.html"
