@@ -22,6 +22,10 @@ mounts:
     source: local
     source_path: uploads
 
+  'public':
+    source: local
+    source_path: public
+
 web:
   commands: 
     start: "node index.js"
