@@ -22,10 +22,12 @@ mounts:
     source: local
     source_path: uploads
 
-  'build': 'shared:build'
+    'build':
+        source: local
+        source_path: build
 
 web:
     locations:
         '/':
             root: 'build'
-            passthru: '/index.html'
+            passthru: 'index.html'
