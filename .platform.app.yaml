@@ -25,6 +25,7 @@ mounts:
   'build': 'shared:build'
 
 web:
-  'build':
-    passthru: '/index.html'
-    allow: false
+    locations:
+        '/':
+            root: 'build'
+            passthru: '/index.html'
