@@ -25,5 +25,5 @@ mounts:
 web:
     locations:
         '/':
-            root: 'build'
+            root: 'public'
             passthru: '/index.html'
