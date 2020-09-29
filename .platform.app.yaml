@@ -22,7 +22,7 @@ mounts:
     source: local
     source_path: uploads
 
-  '/build': 'shared:build'
+  'build': 'shared:build'
 
 web:
   '/':
