@@ -22,8 +22,14 @@ mounts:
         source: local
         source_path: web/upload
 
+hooks:
+    build: |
+        npm run-script build
 web:
     locations:
         '/':
-            root: 'public'
-            passthru: '/index.html'
+            root: 'build'
+            index: ['index.html']
+            scripts: false
+            allow: true
+            expires: 1d
