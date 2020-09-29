@@ -20,7 +20,7 @@ disk: 2048
 mounts:
   'web/upload':
         source: local
-        source_path: build
+        source_path: web/upload
 
 web:
     locations:
