@@ -18,9 +18,9 @@ disk: 2048
 # application container. The 'source_path' specifies the subdirectory
 # from within the source that the mount should point at. 
 mounts:
-#  'build':
-#        source: local
-#        source_path: build
+  'web/upload':
+        source: local
+        source_path: build
 
 web:
     locations:
