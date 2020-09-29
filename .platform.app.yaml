@@ -25,8 +25,8 @@ mounts:
   'build': 'shared:build'
 
 web:
-  '/':
-    root: 'build'
-    expires: 5m
-    passthru: '/index.html'
-    allow: false
+#  '/':
+#    root: 'build'
+#    expires: 5m
+#    passthru: '/index.html'
+#    allow: false
